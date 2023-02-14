@@ -55,10 +55,16 @@ h1, h2, p, a, li, form {
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr 1fr;
     justify-items:center;
+    text-align: center;
 }
 
 .gridcol img {
-    object-fit: fill;
+    object-fit: cover;
     height: 300px;
     width: 400px;
+}
+
+.gridcol div{
+    max-width:400px;
+    padding: 5px;
 }
